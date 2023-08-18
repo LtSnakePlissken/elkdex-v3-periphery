@@ -35,6 +35,21 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@elkdex/lib@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@elkdex/lib/-/lib-1.0.0.tgz#baf77fa5032b887c4494b0c39bd8405135cebd42"
+  integrity sha512-hli8Vhuv+u0HHxTCMgpLp1mKtrO4FtosRzMlxrlDoVfHTaLin3sjcRl97TNEkUy9MnUIwhTB2z11/V0MuG866Q==
+
+"@elkdex/v2-core@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@elkdex/v2-core/-/v2-core-1.0.0.tgz#2b5c086bc86fa9c4d66b70c14c28ee77299d4daf"
+  integrity sha512-Nnq99YC8HYMVTW5NqWT49JKnGgn7MLgg8kXs8l3B0To79k5C48prL5wPpUJmx4KAfHhacRNIVcAZWMbBYnMN+w==
+
+"@elkdex/v3-core@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@elkdex/v3-core/-/v3-core-1.0.1.tgz#c70bcaa6621126f9d75c12c59d302f005c42dac0"
+  integrity sha512-KZY1sDPFJsAwZ/AxAZDFvk7GTqlr/972JD6AnaEZnnJUTvUNymRT3Y2ZPND9a2CYnbq8axixrqQB4urFuswqfg==
+
 "@ensdomains/ens@^0.4.4":
   version "0.4.5"
   resolved "https://registry.yarnpkg.com/@ensdomains/ens/-/ens-0.4.5.tgz#e0aebc005afdc066447c6e22feb4eda89a5edbfc"
@@ -1046,19 +1061,6 @@
   resolved "https://registry.yarnpkg.com/@types/yargs/-/yargs-15.0.12.tgz#6234ce3e3e3fa32c5db301a170f96a599c960d74"
   dependencies:
     "@types/yargs-parser" "*"
-
-"@uniswap/lib@^4.0.1-alpha":
-  version "4.0.1-alpha"
-  resolved "https://registry.yarnpkg.com/@uniswap/lib/-/lib-4.0.1-alpha.tgz#2881008e55f075344675b3bca93f020b028fbd02"
-
-"@uniswap/v2-core@1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
-
-"@uniswap/v3-core@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@uniswap/v3-core/-/v3-core-1.0.0.tgz#6c24adacc4c25dceee0ba3ca142b35adbd7e359d"
-  integrity sha512-kSC4djMGKMHj7sLMYVnn61k9nu+lHjMIxgg9CDQT+s2QYLoA56GbSK9Oxr+qJXzzygbkrmuY6cwgP6cW2JXPFA==
 
 "@yarnpkg/lockfile@^1.1.0":
   version "1.1.0"

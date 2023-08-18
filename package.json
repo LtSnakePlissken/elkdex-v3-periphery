@@ -1,20 +1,20 @@
 {
-  "name": "@uniswap/v3-periphery",
-  "description": "🎚 Peripheral smart contracts for interacting with Uniswap V3",
+  "name": "@elkdex/v3-periphery",
+  "description": "🎚 Peripheral smart contracts for interacting with ElkDex V3",
   "license": "GPL-2.0-or-later",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.4.3",
-  "homepage": "https://uniswap.org",
+  "version": "1.0.0",
+  "homepage": "https://elk.finance",
   "keywords": [
-    "uniswap",
+    "elkdex",
     "periphery",
     "v3"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uniswap/uniswap-v3-periphery"
+    "url": "https://github.com/elkfinance/elkdex-v3-periphery"
   },
   "files": [
     "contracts/base",
@@ -30,9 +30,9 @@
   },
   "dependencies": {
     "@openzeppelin/contracts": "3.4.2-solc-0.7",
-    "@uniswap/lib": "^4.0.1-alpha",
-    "@uniswap/v2-core": "1.0.1",
-    "@uniswap/v3-core": "1.0.0",
+    "@elkdex/lib": "1.0.0",
+    "@elkdex/v2-core": "1.0.0",
+    "@elkdex/v3-core": "1.0.1",
     "base64-sol": "1.0.1"
   },
   "devDependencies": {
@@ -64,5 +64,9 @@
   "scripts": {
     "compile": "hardhat compile",
     "test": "hardhat test"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
